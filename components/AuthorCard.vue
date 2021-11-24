@@ -29,7 +29,7 @@
   .info .name {
     font-weight: bold;
   }
-  .profile-pic imig{
+  .profile-pic img{
     width: 100px;
   }
   @media (max-width: 767px) {
