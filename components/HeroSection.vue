@@ -21,4 +21,10 @@
   justify-content: center;
   max-width: 45%;
 }
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+    max-width: unset;
+  }
+}
 </style>

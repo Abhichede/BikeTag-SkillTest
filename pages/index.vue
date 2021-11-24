@@ -3,12 +3,12 @@
     <HeroSection/>
     <div class="container">
       <div class="row body no-gutters justify-content-between">
-        <div class="col-7">
+        <div class="col-lg-7 col-md-7 col-sm-12">
           <PostContent />
           <hr>
           <AuthorCard />
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-12">
           <CTACard />
           <SimilarPosts />
           <ExternalLinks />
@@ -39,4 +39,9 @@ export default { components: { PostContent, AuthorCard, CTACard, SimilarPosts, E
 .body {
   padding: 50px 0;
 }
+/* @media (max-width: 767px) {
+  .body {
+    flex-direction: column;
+  }
+} */
 </style>

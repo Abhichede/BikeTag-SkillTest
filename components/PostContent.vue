@@ -31,7 +31,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div class="image text-center">
-      <img src="../static/kitchen.jpeg" alt="kitchen" width="500px" height="500px">
+      <img src="../static/kitchen.jpeg" alt="kitchen">
       <legend>Lorem ipsum dolor sit amet</legend>
     </div>
     <h2>Lorem ipsum dolor sit amet</h2>
@@ -42,7 +42,7 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div class="image text-center">
-      <img src="../static/kitchen.jpeg" alt="kitchen" width="500px" height="500px">
+      <img src="../static/kitchen.jpeg" alt="kitchen">
       <legend>Lorem ipsum dolor sit amet</legend>
     </div>
     <h3>Lorem ipsum dolor sit amet</h3>
@@ -57,5 +57,16 @@
 <style scoped>
 .content {
   padding: 30px 0;
+}
+.image img {
+  max-width: 400px;
+}
+@media (max-width: 767px) {
+  .image img {
+    max-width: 250px;
+  }
+}
+.image legend {
+  font-size: 12px;
 }
 </style>

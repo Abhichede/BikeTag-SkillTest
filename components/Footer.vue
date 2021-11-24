@@ -2,14 +2,14 @@
   <div class="footer-container">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-4 column">
+        <div class="col-lg-4 col-md-4 col-sm-12 column text-center">
           <span class="item">lorem ipsum</span>
           <span class="item">lorem ipsum</span>
           <span class="item">lorem ipsum</span>
           <span class="item">lorem ipsum</span>
           <span class="item">lorem ipsum</span>
         </div>
-        <div class="col-8 column text-right">
+        <div class="col-lg-8 col-md-8 col-sm-12 column right-column">
           <span class="item">Lorem Ipsum is simply dummy text of the printing and typesetting</span>
           <span class="item">Lorem Ipsum is simply</span>
           <span class="item">Lorem Ipsum is simply dummy text of</span>
@@ -49,5 +49,13 @@ export default {
 .social-links {
   font-size: 12px;
   font-weight: 400;
+}
+.right-column {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .right-column {
+    text-align: center;
+  }
 }
 </style>

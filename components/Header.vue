@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row header-container justify-content-between align-items-center">
       <div class="col-4 logo">Logo.JPG</div>
-      <div class="col-8">
+      <div class="col-8 menu">
         <a href="/" class="link">Home</a>/
         <a href="#" class="link">Nassos Produtos</a>/
         <a href="#" class="link">Bolg</a>/
@@ -43,5 +43,10 @@ export default {
     font-size: 30px;
     font-weight: 800;
     max-width: 200px;
+  }
+  @media (max-width: 767px) {
+    .menu {
+      display: none;
+    }
   }
 </style>

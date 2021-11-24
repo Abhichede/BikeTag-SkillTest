@@ -1,7 +1,7 @@
 <template>
   <div class="content row no-gutters">
     <div class="profile-pic col-4">
-      <img src="../static/Abhijit.png" alt="Abhijit" width="100px">
+      <img src="../static/Abhijit.png" alt="Abhijit">
     </div>
     <div class="info column col-8">
       <span class="name">Nome do Autor</span>
@@ -28,5 +28,13 @@
   }
   .info .name {
     font-weight: bold;
+  }
+  .profile-pic imig{
+    width: 100px;
+  }
+  @media (max-width: 767px) {
+    .profile-pic img{
+      width: 70px;
+    }
   }
 </style>
